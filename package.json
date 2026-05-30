@@ -1,0 +1,29 @@
+{
+  "name": "lust-md",
+  "version": "1.0.0",
+  "description": "LUST MD - Family RPG Bot for WhatsApp",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "rpg",
+    "family",
+    "games",
+    "marriage"
+  ],
+  "author": "LUST DEV",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "whatsapp-web.js": "^1.0.0",
+    "discord.js": "^14.0.0",
+    "dotenv": "^16.0.0",
+    "mongoose": "^7.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.0"
+  }
+}
